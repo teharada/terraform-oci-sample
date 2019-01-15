@@ -1,0 +1,13 @@
+### Authentication details
+export TF_VAR_tenancy_ocid=ocid1.tenancy.oc1..aaaaaaaaiukyimmix4qqwetjmpb6zreg3vvepkrtimiekjftvh5obqvoyswa
+export TF_VAR_user_ocid=ocid1.user.oc1..aaaaaaaaed7jd5kgaj3ba6bpt4crq7hebsch2w2msj674vuq6cq4ymwcq67q
+export TF_VAR_fingerprint=cc:49:05:03:7b:3a:60:c7:c3:11:0f:18:62:1c:0d:d9
+export TF_VAR_private_key_path=~/.oci/oci_api_key.pem
+export TF_VAR_region=us-ashburn-1
+
+### Compartment
+export TF_VAR_compartment_ocid=ocid1.compartment.oc1..aaaaaaaahfytslotk4aejxjakrdgpg3ntsgefivdkzli3bisekiktny5hsmq
+
+### Public/private keys userd on the instance
+export TF_VAR_ssh_public_key=$(cat ~/.ssh/id_rsa.pub)
+export TF_VAR_ssh_private_key=$(cat ~/.ssh/id_rsa)
